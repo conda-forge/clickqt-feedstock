@@ -26,6 +26,7 @@ requirements:
     - python >=3.8
     - click
     - pyside6
+    - click-option-group
 
 test:
   imports:
