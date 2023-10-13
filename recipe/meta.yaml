@@ -1,5 +1,5 @@
 {% set name = "clickqt" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/clickqt-{{ version }}.tar.gz
-  sha256: 08fd460d70797be8e5799225532a0c5c46f3dc0eee6da2efeeab47402f92ae4d
+  sha256: 14c61568a69f26b8be7b3e65b9c38e69cb2377127f71865d664b5ef22f20c878
 
 build:
   entry_points:
@@ -26,6 +26,8 @@ requirements:
     - python >=3.8
     - click
     - pyside6
+    - click-option-group
+    - qt-collapsible-section-pyside6
 
 test:
   imports:
