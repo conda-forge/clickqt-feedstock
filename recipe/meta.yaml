@@ -27,6 +27,7 @@ requirements:
     - click
     - pyside6
     - click-option-group
+    - qt-collapsible-section-pyside6
 
 test:
   imports:
